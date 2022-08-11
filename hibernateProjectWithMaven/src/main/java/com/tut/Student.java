@@ -10,6 +10,7 @@ public class Student {
 	private int id;
 	private String name;
 	private String city;
+	private Certificate certificate;
 	public Student(int id, String name, String city) {
 		super();
 		this.id = id;
@@ -40,6 +41,12 @@ public class Student {
 	@Override
 	public String toString() {
 		return this.id+" : "+this.name+" : "+this.city;
+	}
+	public Certificate getCertificate() {
+		return certificate;
+	}
+	public void setCertificate(Certificate certificate) {
+		this.certificate = certificate;
 	}
 
 }
