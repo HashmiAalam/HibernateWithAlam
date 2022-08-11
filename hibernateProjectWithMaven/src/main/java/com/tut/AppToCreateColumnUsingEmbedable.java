@@ -6,6 +6,7 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 /*
  * This class is using Embedable(Certificate) class to add column in its table
+ * i.e. we can add one class's field in others class's table
  */
 public class AppToCreateColumnUsingEmbedable {
 public static void main(String[] args) {
